@@ -1,0 +1,1 @@
+#!/usr/bin/env bashecho build startdocker build -t youtube-download .docker tag youtube-download:latest xushikuan/youtube-download:1.0docker push xushikuan/youtube-download:1.0echo build end
