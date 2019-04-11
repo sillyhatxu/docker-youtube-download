@@ -1,1 +1,1 @@
-youtube-dl -i -r 1M -o '/app/AAAAAAAA/%(title)s.%(ext)s' "https://www.youtube.com/watch?v=jul2urONzOQ&list=aaaaaaaaaaaaaaaaaaaaaaaaa"youtube-dl -i -r 1M -o '/app/BBBBBBBBB/%(title)s.%(ext)s' "https://www.youtube.com/watch?v=KaA_mxga3PQ&list=bbbbbbbbbbbbbbbbbbbb"
+youtube-dl -i -r 1M -o '/app/%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/channel/xxxxxxxxxxxxxxxxx/playlists
